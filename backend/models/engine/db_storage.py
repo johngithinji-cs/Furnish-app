@@ -34,7 +34,7 @@ class DBStorage:
         # MYSQL_PORT = os.environ.get('MYSQL_PORT') 
         # MYSQL_DATABASE = os.environ.get('MYSQL_DATABASE')
 
-        self.__engine = create_engine("mysql+mysqldb://sql8583371:v1p2LcPlTa@sql8.freesqldatabase.com:3306/sql8583371",
+        self.__engine = create_engine("mysql+mysqldb://sql8583878:K43PkZdHhg@sql8.freesqldatabase.com:3306/sql8583878",
                             pool_pre_ping=True)
  
 
