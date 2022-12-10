@@ -20,7 +20,7 @@ export default function App() {
   const [product, setProduct] = React.useState();
   const navigate = useNavigate();
 
-  const base_url = "https://furnish-store.onrender.com/api/v1/";
+  const base_url = "https://furnish-backend.onrender.com/api/v1/";
   // Navigation
   function navigateToCategoryProduct(category_id) {
     navigate(`/categories/${category_id}/products`);
